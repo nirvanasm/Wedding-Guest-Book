@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wedding-guest-book/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/wedding-guest-book/static/js/main.f5025cb6.chunk.js",
+    "main.js.map": "/wedding-guest-book/static/js/main.f5025cb6.chunk.js.map",
+    "runtime-main.js": "/wedding-guest-book/static/js/runtime-main.ae732955.js",
+    "runtime-main.js.map": "/wedding-guest-book/static/js/runtime-main.ae732955.js.map",
+    "static/js/2.052dc75b.chunk.js": "/wedding-guest-book/static/js/2.052dc75b.chunk.js",
+    "static/js/2.052dc75b.chunk.js.map": "/wedding-guest-book/static/js/2.052dc75b.chunk.js.map",
+    "static/js/3.e1c28c7e.chunk.js": "/wedding-guest-book/static/js/3.e1c28c7e.chunk.js",
+    "static/js/3.e1c28c7e.chunk.js.map": "/wedding-guest-book/static/js/3.e1c28c7e.chunk.js.map",
+    "index.html": "/wedding-guest-book/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/wedding-guest-book/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.052dc75b.chunk.js.LICENSE.txt": "/wedding-guest-book/static/js/2.052dc75b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae732955.js",
+    "static/js/2.052dc75b.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.f5025cb6.chunk.js"
+  ]
+}
