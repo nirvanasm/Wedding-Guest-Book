@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Wedding-Guest-Book/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/Wedding-Guest-Book/static/js/main.a312bcbd.chunk.js",
-    "main.js.map": "/Wedding-Guest-Book/static/js/main.a312bcbd.chunk.js.map",
+    "main.js": "/Wedding-Guest-Book/static/js/main.3b6fc89d.chunk.js",
+    "main.js.map": "/Wedding-Guest-Book/static/js/main.3b6fc89d.chunk.js.map",
     "runtime-main.js": "/Wedding-Guest-Book/static/js/runtime-main.16cac8c7.js",
     "runtime-main.js.map": "/Wedding-Guest-Book/static/js/runtime-main.16cac8c7.js.map",
     "static/js/2.ae70d425.chunk.js": "/Wedding-Guest-Book/static/js/2.ae70d425.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.d9ce4fa2.chunk.js.map": "/Wedding-Guest-Book/static/js/3.d9ce4fa2.chunk.js.map",
     "index.html": "/Wedding-Guest-Book/index.html",
     "static/css/main.ab7136cd.chunk.css.map": "/Wedding-Guest-Book/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.ae70d425.chunk.js.LICENSE.txt": "/Wedding-Guest-Book/static/js/2.ae70d425.chunk.js.LICENSE.txt"
+    "static/js/2.ae70d425.chunk.js.LICENSE.txt": "/Wedding-Guest-Book/static/js/2.ae70d425.chunk.js.LICENSE.txt",
+    "static/media/denah.8ff9f9f1.jpeg": "/Wedding-Guest-Book/static/media/denah.8ff9f9f1.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.16cac8c7.js",
     "static/js/2.ae70d425.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.a312bcbd.chunk.js"
+    "static/js/main.3b6fc89d.chunk.js"
   ]
 }
