@@ -4,7 +4,7 @@ import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import Button from '@material-ui/core/Button';
 
-import Denah from 'https://nirvanasm.github.io/Wedding-Guest-Book/src/denah.jpeg'
+import Denah from './denah.jpeg'
 
 class Child extends React.Component {
   HandleSubmit(e){
@@ -17,6 +17,7 @@ class Child extends React.Component {
     this.state = {
         guestName: null,
         guestSeatNo: 0,
+        guestTableNo: 0,
         submitted: false,
     };
     this.setTextInputRef = element => {
@@ -37,7 +38,7 @@ class Child extends React.Component {
                     getOptionLabel={(guest) => guest.Name}
                     style={{ width: 300, backgroundColor: 'white', outlineColor: 'primary', }}
                     renderInput={(params) => <TextField {...params} variant="outlined" color="primary"/>}
-                    onChange={(event, val) => this.setState({ guestName: val.Name, guestSeatNo: val.seatNo, })}
+                    onChange={(event, val) => this.setState({ guestName: val.Name, guestSeatNo: val.seatNo, guestTableNo: val.tableNo})}
                 />
                 <br></br>
                 <Button variant="contained" size="large" onClick={this.HandleSubmit.bind(this)} display="inline">Submit</Button>
@@ -53,7 +54,7 @@ class Child extends React.Component {
 
                 <h1> {this.state.guestSeatNo} </h1>
 
-                <img src={Denah} width="500px"/>
+                <img src={"https://raw.githubusercontent.com/nirvanasm/Wedding-Guest-Book/master/denah"+this.state.guestTableNo+".jpeg"} width="500px"/>
             </div>
         );
     }
@@ -63,48 +64,48 @@ class Child extends React.Component {
 export default Child;
 
 const guestList = [
-    {Name: "Shannon", seatNo:0},
-    {Name: "Karina", seatNo:0},
-    {Name: "Diandra", seatNo:0},
-    {Name: "Vanessa", seatNo:0},
-    {Name: "Livia", seatNo:0},
-    {Name: "Hans", seatNo:0},
-    {Name: "Ellen", seatNo:0},
-    {Name: "Anastasia", seatNo:0},
-    {Name: "Felix", seatNo:0},
-    {Name: "Giscielle", seatNo:0},
-    {Name: "Sheena", seatNo:0},
-    {Name: "Fang", seatNo:0},
-    {Name: "Feifei", seatNo:0},
-    {Name: "Anthony", seatNo:0},
-    {Name: "Christina", seatNo:0},
-    {Name: "Sharon", seatNo:0},
-    {Name: "Ita", seatNo:0},
-    {Name: "Hendrik", seatNo:0},
-    {Name: "Angle", seatNo:0},
-    {Name: "Irvandy", seatNo:0},
-    {Name: "jenny", seatNo:0},
-    {Name: "johan", seatNo:0},
-    {Name: "Jonas Aditya Sunandar", seatNo:0},
-    {Name: "Jennifer Theresia", seatNo:0},
-    {Name: "Fadil Kamal", seatNo:0},
-    {Name: "Della", seatNo:0},
-    {Name: "Jonathan Altheo", seatNo:0},
-    {Name: "Andrianson Nathanael", seatNo:0},
-    {Name: "Pinandita Anggakara Singal", seatNo:0},
-    {Name: "Simplicity F C", seatNo:0},
-    {Name: "Andhika Alfonsus", seatNo:0},
-    {Name: "Arie", seatNo:0},
-    {Name: "Pacar Arie", seatNo:0},
-    {Name: "Luna Fidelita", seatNo:0},
-    {Name: "Meichen Dewi", seatNo:0},
-    {Name: "Steffany Haryadi", seatNo:0},
-    {Name: "Kevin Herklots", seatNo:0},
-    {Name: "Vincent Pangestu", seatNo:0},
-    {Name: "Yenny Yorisca", seatNo:0},
-    {Name: "Shierlen Octavia", seatNo:0},
-    {Name: "Refin", seatNo:0},
-    {Name: "Mariska", seatNo:0},
-    {Name: "Vanesha Natalia Ignacia", seatNo:0},
-    {Name: "Stella Natalia Ignacia", seatNo:0},
+    {Name: "Shannon", seatNo:0, tableNo:1},
+    {Name: "Karina", seatNo:0, tableNo:1},
+    {Name: "Diandra", seatNo:0, tableNo:1},
+    {Name: "Vanessa", seatNo:0, tableNo:1},
+    {Name: "Livia", seatNo:0, tableNo:2},
+    {Name: "Hans", seatNo:0, tableNo:2},
+    {Name: "Ellen", seatNo:0, tableNo:2},
+    {Name: "Anastasia", seatNo:0, tableNo:2},
+    {Name: "Felix", seatNo:0, tableNo:2},
+    {Name: "Giscielle", seatNo:0, tableNo:2},
+    {Name: "Sheena", seatNo:0, tableNo:3},
+    {Name: "Fang", seatNo:0, tableNo:3},
+    {Name: "Feifei", seatNo:0, tableNo:3},
+    {Name: "Anthony", seatNo:0, tableNo:3},
+    {Name: "Christina", seatNo:0, tableNo:3},
+    {Name: "Sharon", seatNo:0, tableNo:3},
+    {Name: "Ita", seatNo:0, tableNo:4},
+    {Name: "Hendrik", seatNo:0, tableNo:4},
+    {Name: "Angle", seatNo:0, tableNo:4},
+    {Name: "Irvandy", seatNo:0, tableNo:4},
+    {Name: "jenny", seatNo:0, tableNo:4},
+    {Name: "johan", seatNo:0, tableNo:4},
+    {Name: "Jonas Aditya Sunandar", seatNo:0, tableNo:5},
+    {Name: "Jennifer Theresia", seatNo:0, tableNo:5},
+    {Name: "Fadil Kamal", seatNo:0, tableNo:5},
+    {Name: "Della", seatNo:0, tableNo:5},
+    {Name: "Jonathan Altheo", seatNo:0, tableNo:5},
+    {Name: "Andrianson Nathanael", seatNo:0, tableNo:5},
+    {Name: "Pinandita Anggakara Singal", seatNo:0, tableNo:6},
+    {Name: "Simplicity F C", seatNo:0, tableNo:6},
+    {Name: "Andhika Alfonsus", seatNo:0, tableNo:6},
+    {Name: "Arie", seatNo:0, tableNo:6},
+    {Name: "Pacar Arie", seatNo:0, tableNo:6},
+    {Name: "Luna Fidelita", seatNo:0, tableNo:7},
+    {Name: "Meichen Dewi", seatNo:0, tableNo:7},
+    {Name: "Steffany Haryadi", seatNo:0, tableNo:7},
+    {Name: "Kevin Herklots", seatNo:0, tableNo:7},
+    {Name: "Vincent Pangestu", seatNo:0, tableNo:7},
+    {Name: "Yenny Yorisca", seatNo:0, tableNo:8},
+    {Name: "Shierlen Octavia", seatNo:0, tableNo:8},
+    {Name: "Refin", seatNo:0, tableNo:8},
+    {Name: "Mariska", seatNo:0, tableNo:8},
+    {Name: "Vanesha Natalia Ignacia", seatNo:0, tableNo:8},
+    {Name: "Stella Natalia Ignacia", seatNo:0, tableNo:8},
   ];
