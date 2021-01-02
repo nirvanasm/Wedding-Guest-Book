@@ -27,7 +27,7 @@ class Child extends React.Component {
   render() {
     if(!this.state.submitted){
         return (
-            <div className="App-header">
+            <div className="App-header" style={{backgroundImage:`url(Sebastian-Velerie-03.jpg)`}}>
                 <p>
                     Hi there! Search your name and find your table number!
                 </p>
