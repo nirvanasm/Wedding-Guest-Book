@@ -27,8 +27,16 @@ class Child extends React.Component {
   render() {
     if(!this.state.submitted){
         return (
-            <div className="App-header" style={{backgroundImage:`url(Sebastian-Velerie-03.jpg)`}}>
-                <p>
+            <div className="App-header" style={{
+                backgroundImage:`url("https://raw.githubusercontent.com/nirvanasm/Wedding-Guest-Book/master/Sebastian-Velerie-03.jpg")`,
+                backgroundRepeat:"no-repeat",
+                backgroundSize:"contain",
+                WebkitTextStrokeWidth: "1px",
+                WebkitTextStrokeColor: "#000000",
+            }}>
+                <p style={{
+                    textDecoration:"bold",
+                }}>
                     Hi there! Search your name and find your table number!
                 </p>
                 <Autocomplete
