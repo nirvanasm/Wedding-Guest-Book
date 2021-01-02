@@ -88,7 +88,7 @@ const guestList = [
     {Name: "Anthony", seatNo:4, tableNo:6},
     {Name: "Christina", seatNo:5, tableNo:6},
     {Name: "Sharon", seatNo:6, tableNo:6},
-    {Name: "Margaretha Andrianie", seatNo:1, tableNo:4},
+    {Name: "Margaretha", seatNo:1, tableNo:4},
     {Name: "Hendrik", seatNo:1, tableNo:4},
     {Name: "Angle", seatNo:2, tableNo:4},
     {Name: "Irvandy", seatNo:3, tableNo:4},
