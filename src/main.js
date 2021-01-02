@@ -55,8 +55,6 @@ class Child extends React.Component {
 
                 <h1> Table No {this.state.guestTableNo} </h1>
 
-                <h1> Seat No {this.state.guestSeatNo} </h1>
-
                 <img src={"https://raw.githubusercontent.com/nirvanasm/Wedding-Guest-Book/master/denah"+this.state.guestTableNo+".jpeg"} width="300px"/>
             </div>
         );
