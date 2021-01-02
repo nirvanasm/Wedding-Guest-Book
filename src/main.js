@@ -49,12 +49,15 @@ class Child extends React.Component {
         return (
             <div>
                 <p>
-                    Welcome <span style={{color:"#C21E56", fontWeight:'bold'}}>{this.state.guestName}</span>, please proceed to red table. Your seat number is
+                    Welcome <span style={{color:"#C21E56", fontWeight:'bold'}}>{this.state.guestName}</span>, please proceed to 
+                    
                 </p>
 
-                <h1> {this.state.guestSeatNo} </h1>
+                <h1> Table No {this.state.guestTableNo} </h1>
 
-                <img src={"https://raw.githubusercontent.com/nirvanasm/Wedding-Guest-Book/master/denah"+this.state.guestTableNo+".jpeg"} width="500px"/>
+                <h1> Seat No {this.state.guestSeatNo} </h1>
+
+                <img src={"https://raw.githubusercontent.com/nirvanasm/Wedding-Guest-Book/master/denah"+this.state.guestTableNo+".jpeg"} width="300px"/>
             </div>
         );
     }
@@ -75,8 +78,8 @@ const guestList = [
     {Name: "Felix", seatNo:5, tableNo:2},
     {Name: "Giscielle", seatNo:6, tableNo:2},
     {Name: "Sheena", seatNo:1, tableNo:3},
-    {Name: "Fang", seatNo:2, tableNo:3},
-    {Name: "Feifei", seatNo:3, tableNo:3},
+    {Name: "Fang Fang", seatNo:2, tableNo:3},
+    {Name: "Fei Fei", seatNo:3, tableNo:3},
     {Name: "Anthony", seatNo:4, tableNo:3},
     {Name: "Christina", seatNo:5, tableNo:3},
     {Name: "Sharon", seatNo:6, tableNo:3},
@@ -84,8 +87,8 @@ const guestList = [
     {Name: "Hendrik", seatNo:1, tableNo:4},
     {Name: "Angle", seatNo:2, tableNo:4},
     {Name: "Irvandy", seatNo:3, tableNo:4},
-    {Name: "jenny", seatNo:4, tableNo:4},
-    {Name: "johan", seatNo:5, tableNo:4},
+    {Name: "Jenny", seatNo:4, tableNo:4},
+    {Name: "Johan", seatNo:5, tableNo:4},
     {Name: "Jonas Aditya Sunandar", seatNo:1, tableNo:5},
     {Name: "Jennifer Theresia", seatNo:2, tableNo:5},
     {Name: "Fadil Kamal", seatNo:3, tableNo:5},
